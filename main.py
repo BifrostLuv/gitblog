@@ -2,6 +2,8 @@
 from github import Github
 from github.Issue import Issue
 import argparse
+import requests
+import functools
 
 MD_HEAD = """## Gitblog
 My personal blog using issues and GitHub Action
@@ -113,6 +115,18 @@ def add_md_header(md):
 
 def add_md_label(repo, md, me):
     labels = get_repo_labels(repo)
+
+    def cmp(a, b):
+        b_len = len(list(repo.get_issues(labels=[b])))
+        a_len = len(list(repo.get_issues(labels=[a])))
+        if a_len > b_len:
+            return -1
+        elif a_len == b_len:
+            return a_len > b_len
+        else:
+            return 1
+
+    labels = sorted(labels, key=functools.cmp_to_key(cmp))
     with open(md, "a+", encoding="utf-8") as md:
         for label in labels:
 
@@ -146,7 +160,7 @@ def add_md_label(repo, md, me):
 def main(token, repo_name):
     user = login(token)
     me = get_me(user)
-    repo = get_repo(user, repo_name)
+    repo = get_repo(user, "chaleaoch/gitblog")
     add_md_header("README.md")
     # add to readme one by one, change order here
     for func in [add_md_top, add_md_recent, add_md_label, add_md_todo]:
