@@ -1,9 +1,13 @@
 # -*- coding: utf-8 -*-
+import argparse
+import functools
+import os
+import subprocess
+import io
+
+import requests
 from github import Github
 from github.Issue import Issue
-import argparse
-import requests
-import functools
 
 MD_HEAD = """## Gitblog
 My personal blog using issues and GitHub Action
@@ -108,6 +112,33 @@ def add_md_recent(repo, md, me):
             return
 
 
+def add_toc(repo, me):
+    the_newest_issue = repo.get_issues()[:1]
+    for issue in the_newest_issue:
+        if isMe(issue, me):
+            try:
+                issue_body = issue.body
+                handle = open("tmp.tmp", "w")
+                handle.write(issue_body)
+                handle.close()
+                body = "\n".join(
+                    subprocess.check_output(f"./gh-md-toc ./tmp.tmp", shell=True).decode("utf-8").split("\n")[:-2]
+                )
+                split_line = "\*" * 60
+                if split_line in issue_body:
+                    issue.edit(
+                        body=body
+                        + "\n"
+                        + split_line
+                        + "\n"
+                        + issue_body[issue_body.find(split_line) + split_line.count("*") * 2 + 1 :]
+                    )
+                else:
+                    issue.edit(body=body + "\n" + split_line + "\n" + issue_body)
+            except Exception as e:
+                pass
+
+
 def add_md_header(md):
     with open(md, "w", encoding="utf-8") as md:
         md.write(MD_HEAD)
@@ -162,6 +193,7 @@ def main(token, repo_name):
     me = get_me(user)
     repo = get_repo(user, "chaleaoch/gitblog")
     add_md_header("README.md")
+    add_toc(repo, me)
     # add to readme one by one, change order here
     for func in [add_md_top, add_md_recent, add_md_label, add_md_todo]:
         func(repo, "README.md", me)
