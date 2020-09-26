@@ -117,24 +117,17 @@ def add_toc(repo, me):
     for issue in the_newest_issue:
         if isMe(issue, me):
             try:
+                split_line = "\*" * 60
                 issue_body = issue.body
+                if split_line in issue_body:
+                    issue_body = issue_body[issue_body.find(split_line) + split_line.count("*") * 2 + 1 :]
                 handle = open("tmp.tmp", "w")
                 handle.write(issue_body)
                 handle.close()
                 body = "\n".join(
                     subprocess.check_output(f"./gh-md-toc ./tmp.tmp", shell=True).decode("utf-8").split("\n")[:-2]
                 )
-                split_line = "\*" * 60
-                if split_line in issue_body:
-                    issue.edit(
-                        body=body
-                        + "\n"
-                        + split_line
-                        + "\n"
-                        + issue_body[issue_body.find(split_line) + split_line.count("*") * 2 + 1 :]
-                    )
-                else:
-                    issue.edit(body=body + "\n" + split_line + "\n" + issue_body)
+                issue.edit(body=body + "\n" + split_line + "\n" + issue_body)
             except Exception as e:
                 pass
 
