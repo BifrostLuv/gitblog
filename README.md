@@ -1,11 +1,11 @@
 ## Gitblog
 My personal blog using issues and GitHub Action
 ## 最近更新
+- [# Go的包导入](https://github.com/chaleaoch/gitblog/issues/13)--2020-10-14
 - [# GOROOT GOPATH GO Module](https://github.com/chaleaoch/gitblog/issues/12)--2020-10-14
 - [C预处理器](https://github.com/chaleaoch/gitblog/issues/11)--2020-10-04
 - [typedef](https://github.com/chaleaoch/gitblog/issues/10)--2020-10-04
 - [x86架构32位处理器寄存器](https://github.com/chaleaoch/gitblog/issues/9)--2020-10-03
-- [为什么减法用补码表示?](https://github.com/chaleaoch/gitblog/issues/8)--2020-10-03
 ## 笔记
 - [C预处理器](https://github.com/chaleaoch/gitblog/issues/11)--2020-10-04
 - [typedef](https://github.com/chaleaoch/gitblog/issues/10)--2020-10-04
@@ -18,6 +18,7 @@ My personal blog using issues and GitHub Action
 </details>
 
 ## Go
+- [# Go的包导入](https://github.com/chaleaoch/gitblog/issues/13)--2020-10-14
 - [# GOROOT GOPATH GO Module](https://github.com/chaleaoch/gitblog/issues/12)--2020-10-14
 ## python
 - [greenlet(1) 使用](https://github.com/chaleaoch/gitblog/issues/4)--2020-09-26
