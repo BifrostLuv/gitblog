@@ -1,11 +1,11 @@
 ## Gitblog
 My personal blog using issues and GitHub Action
 ## 最近更新
+- [pip 离线安装下载第三方模块](https://github.com/chaleaoch/gitblog/issues/18)--2020-10-30
 - [什么是JS中的垫片](https://github.com/chaleaoch/gitblog/issues/17)--2020-10-28
 - [Js学习笔记](https://github.com/chaleaoch/gitblog/issues/16)--2020-10-25
 - [vscode launch.json](https://github.com/chaleaoch/gitblog/issues/15)--2020-10-24
 - [操作系统笔记](https://github.com/chaleaoch/gitblog/issues/14)--2020-10-19
-- [# Go的包导入](https://github.com/chaleaoch/gitblog/issues/13)--2020-10-14
 ## 笔记
 - [vscode launch.json](https://github.com/chaleaoch/gitblog/issues/15)--2020-10-24
 - [操作系统笔记](https://github.com/chaleaoch/gitblog/issues/14)--2020-10-19
@@ -30,3 +30,5 @@ My personal blog using issues and GitHub Action
 - [greenlet(1) 使用](https://github.com/chaleaoch/gitblog/issues/4)--2020-09-26
 ## 操作系统
 - [操作系统笔记](https://github.com/chaleaoch/gitblog/issues/14)--2020-10-19
+## 收纳箱
+- [pip 离线安装下载第三方模块](https://github.com/chaleaoch/gitblog/issues/18)--2020-10-30
