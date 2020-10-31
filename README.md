@@ -1,19 +1,20 @@
 ## Gitblog
 My personal blog using issues and GitHub Action
 ## 最近更新
+- [numpy学习笔记](https://github.com/chaleaoch/gitblog/issues/19)--2020-10-31
 - [pip 离线安装下载第三方模块](https://github.com/chaleaoch/gitblog/issues/18)--2020-10-30
 - [什么是JS中的垫片](https://github.com/chaleaoch/gitblog/issues/17)--2020-10-28
 - [Js学习笔记](https://github.com/chaleaoch/gitblog/issues/16)--2020-10-25
 - [vscode launch.json](https://github.com/chaleaoch/gitblog/issues/15)--2020-10-24
-- [操作系统笔记](https://github.com/chaleaoch/gitblog/issues/14)--2020-10-19
 ## 笔记
+- [numpy学习笔记](https://github.com/chaleaoch/gitblog/issues/19)--2020-10-31
 - [vscode launch.json](https://github.com/chaleaoch/gitblog/issues/15)--2020-10-24
 - [操作系统笔记](https://github.com/chaleaoch/gitblog/issues/14)--2020-10-19
 - [C预处理器](https://github.com/chaleaoch/gitblog/issues/11)--2020-10-04
 - [typedef](https://github.com/chaleaoch/gitblog/issues/10)--2020-10-04
-- [x86架构32位处理器寄存器](https://github.com/chaleaoch/gitblog/issues/9)--2020-10-03
 <details><summary>显示更多</summary>
 
+- [x86架构32位处理器寄存器](https://github.com/chaleaoch/gitblog/issues/9)--2020-10-03
 - [为什么减法用补码表示?](https://github.com/chaleaoch/gitblog/issues/8)--2020-10-03
 - [# GDT与LDT](https://github.com/chaleaoch/gitblog/issues/7)--2020-10-03
 - [参考书目](https://github.com/chaleaoch/gitblog/issues/5)--2020-09-29
