@@ -1,11 +1,11 @@
 ## Gitblog
 My personal blog using issues and GitHub Action
 ## 最近更新
+- [pandas学习笔记](https://github.com/chaleaoch/gitblog/issues/20)--2020-10-31
 - [numpy学习笔记](https://github.com/chaleaoch/gitblog/issues/19)--2020-10-31
 - [pip 离线安装下载第三方模块](https://github.com/chaleaoch/gitblog/issues/18)--2020-10-30
 - [什么是JS中的垫片](https://github.com/chaleaoch/gitblog/issues/17)--2020-10-28
 - [Js学习笔记](https://github.com/chaleaoch/gitblog/issues/16)--2020-10-25
-- [vscode launch.json](https://github.com/chaleaoch/gitblog/issues/15)--2020-10-24
 ## 笔记
 - [numpy学习笔记](https://github.com/chaleaoch/gitblog/issues/19)--2020-10-31
 - [vscode launch.json](https://github.com/chaleaoch/gitblog/issues/15)--2020-10-24
