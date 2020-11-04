@@ -1,19 +1,20 @@
 ## Gitblog
 My personal blog using issues and GitHub Action
 ## 最近更新
+- [C笔记](https://github.com/chaleaoch/gitblog/issues/25)--2020-11-04
 - [django orm --> sql ](https://github.com/chaleaoch/gitblog/issues/24)--2020-11-04
 - [pytz时区问题](https://github.com/chaleaoch/gitblog/issues/23)--2020-11-04
 - [malloc存在的意义是什么?](https://github.com/chaleaoch/gitblog/issues/22)--2020-11-01
 - [bash学习笔记](https://github.com/chaleaoch/gitblog/issues/21)--2020-11-01
-- [pandas学习笔记](https://github.com/chaleaoch/gitblog/issues/20)--2020-10-31
 ## 笔记
+- [C笔记](https://github.com/chaleaoch/gitblog/issues/25)--2020-11-04
 - [bash学习笔记](https://github.com/chaleaoch/gitblog/issues/21)--2020-11-01
 - [numpy学习笔记](https://github.com/chaleaoch/gitblog/issues/19)--2020-10-31
 - [vscode launch.json](https://github.com/chaleaoch/gitblog/issues/15)--2020-10-24
 - [操作系统笔记](https://github.com/chaleaoch/gitblog/issues/14)--2020-10-19
-- [C预处理器](https://github.com/chaleaoch/gitblog/issues/11)--2020-10-04
 <details><summary>显示更多</summary>
 
+- [C预处理器](https://github.com/chaleaoch/gitblog/issues/11)--2020-10-04
 - [typedef](https://github.com/chaleaoch/gitblog/issues/10)--2020-10-04
 - [x86架构32位处理器寄存器](https://github.com/chaleaoch/gitblog/issues/9)--2020-10-03
 - [为什么减法用补码表示?](https://github.com/chaleaoch/gitblog/issues/8)--2020-10-03
