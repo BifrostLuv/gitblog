@@ -1,11 +1,11 @@
 ## Gitblog
 My personal blog using issues and GitHub Action
 ## 最近更新
+- [django orm --> sql ](https://github.com/chaleaoch/gitblog/issues/24)--2020-11-04
 - [pytz时区问题](https://github.com/chaleaoch/gitblog/issues/23)--2020-11-04
 - [malloc存在的意义是什么?](https://github.com/chaleaoch/gitblog/issues/22)--2020-11-01
 - [bash学习笔记](https://github.com/chaleaoch/gitblog/issues/21)--2020-11-01
 - [pandas学习笔记](https://github.com/chaleaoch/gitblog/issues/20)--2020-10-31
-- [numpy学习笔记](https://github.com/chaleaoch/gitblog/issues/19)--2020-10-31
 ## 笔记
 - [bash学习笔记](https://github.com/chaleaoch/gitblog/issues/21)--2020-11-01
 - [numpy学习笔记](https://github.com/chaleaoch/gitblog/issues/19)--2020-10-31
@@ -22,6 +22,7 @@ My personal blog using issues and GitHub Action
 </details>
 
 ## 收纳箱
+- [django orm --> sql ](https://github.com/chaleaoch/gitblog/issues/24)--2020-11-04
 - [pytz时区问题](https://github.com/chaleaoch/gitblog/issues/23)--2020-11-04
 - [malloc存在的意义是什么?](https://github.com/chaleaoch/gitblog/issues/22)--2020-11-01
 - [pip 离线安装下载第三方模块](https://github.com/chaleaoch/gitblog/issues/18)--2020-10-30
