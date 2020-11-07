@@ -1,11 +1,11 @@
 ## Gitblog
 My personal blog using issues and GitHub Action
 ## 最近更新
+- [macos 实用软件](https://github.com/chaleaoch/gitblog/issues/27)--2020-11-07
 - [sso 单点登录](https://github.com/chaleaoch/gitblog/issues/26)--2020-11-07
 - [C笔记](https://github.com/chaleaoch/gitblog/issues/25)--2020-11-04
 - [django orm --> sql ](https://github.com/chaleaoch/gitblog/issues/24)--2020-11-04
 - [pytz时区问题](https://github.com/chaleaoch/gitblog/issues/23)--2020-11-04
-- [malloc存在的意义是什么?](https://github.com/chaleaoch/gitblog/issues/22)--2020-11-01
 ## 笔记
 - [C笔记](https://github.com/chaleaoch/gitblog/issues/25)--2020-11-04
 - [bash学习笔记](https://github.com/chaleaoch/gitblog/issues/21)--2020-11-01
@@ -38,5 +38,7 @@ My personal blog using issues and GitHub Action
 - [vscode launch.json](https://github.com/chaleaoch/gitblog/issues/15)--2020-10-24
 ## python_web_greenlet
 - [greenlet(1) 使用](https://github.com/chaleaoch/gitblog/issues/4)--2020-09-26
+## 挖坑
+- [macos 实用软件](https://github.com/chaleaoch/gitblog/issues/27)--2020-11-07
 ## 操作系统
 - [操作系统笔记](https://github.com/chaleaoch/gitblog/issues/14)--2020-10-19
