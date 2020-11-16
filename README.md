@@ -1,7 +1,7 @@
 ## Gitblog
 My personal blog using issues and GitHub Action
 ## 最近更新
-- [macos 实用软件](https://github.com/chaleaoch/gitblog/issues/27)--2020-11-07
+- [书单](https://github.com/chaleaoch/gitblog/issues/28)--2020-11-16
 - [sso 单点登录](https://github.com/chaleaoch/gitblog/issues/26)--2020-11-07
 - [C笔记](https://github.com/chaleaoch/gitblog/issues/25)--2020-11-04
 - [django orm --> sql ](https://github.com/chaleaoch/gitblog/issues/24)--2020-11-04
@@ -39,6 +39,6 @@ My personal blog using issues and GitHub Action
 ## python_web_greenlet
 - [greenlet(1) 使用](https://github.com/chaleaoch/gitblog/issues/4)--2020-09-26
 ## 挖坑
-- [macos 实用软件](https://github.com/chaleaoch/gitblog/issues/27)--2020-11-07
+- [书单](https://github.com/chaleaoch/gitblog/issues/28)--2020-11-16
 ## 操作系统
 - [操作系统笔记](https://github.com/chaleaoch/gitblog/issues/14)--2020-10-19
