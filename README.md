@@ -1,7 +1,7 @@
 ## Gitblog
 My personal blog using issues and GitHub Action
 ## 最近更新
-- [进程间通信的常用方式](https://github.com/chaleaoch/gitblog/issues/29)--2020-11-21
+- [进程间通信](https://github.com/chaleaoch/gitblog/issues/29)--2020-11-21
 - [书单](https://github.com/chaleaoch/gitblog/issues/28)--2020-11-16
 - [sso 单点登录](https://github.com/chaleaoch/gitblog/issues/26)--2020-11-07
 - [C笔记](https://github.com/chaleaoch/gitblog/issues/25)--2020-11-04
@@ -43,4 +43,4 @@ My personal blog using issues and GitHub Action
 ## 操作系统
 - [操作系统笔记](https://github.com/chaleaoch/gitblog/issues/14)--2020-10-19
 ## 草稿
-- [进程间通信的常用方式](https://github.com/chaleaoch/gitblog/issues/29)--2020-11-21
+- [进程间通信](https://github.com/chaleaoch/gitblog/issues/29)--2020-11-21
