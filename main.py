@@ -155,7 +155,7 @@ def add_md_label(repo, md, me):
     with open(md, "a+", encoding="utf-8") as md:
         for label in labels:
 
-            if label.name.contains("不显示_"):
+            if label.name.count("隐藏_") != 0:
                 continue
 
             # we don't need add top label again
