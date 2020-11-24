@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 import argparse
 import functools
+import io
 import os
 import subprocess
-import io
+from operator import contains
 
 import requests
 from github import Github
@@ -153,6 +154,9 @@ def add_md_label(repo, md, me):
     labels = sorted(labels, key=functools.cmp_to_key(cmp))
     with open(md, "a+", encoding="utf-8") as md:
         for label in labels:
+
+            if label.name.contains("不显示_"):
+                continue
 
             # we don't need add top label again
             if label.name in TOP_ISSUES_LABELS:
