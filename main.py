@@ -14,6 +14,7 @@ MD_HEAD = """## Gitblog
 My personal blog using issues and GitHub Action
 """
 
+BACKUP_DIR = "BACKUP"
 ANCHOR_NUMBER = 5
 TOP_ISSUES_LABELS = ["Top"]
 TODO_ISSUES_LABELS = ["TODO"]
@@ -185,7 +186,28 @@ def add_md_label(repo, md, me):
                 md.write("\n")
 
 
-def main(token, repo_name):
+def get_to_generate_issues(repo, dir_name, issue_number=None):
+    md_files = os.listdir(dir_name)
+    generated_issues_numbers = [int(i.split("_")[0]) for i in md_files if i.split("_")[0].isdigit()]
+    to_generate_issues = [i for i in list(repo.get_issues()) if int(i.number) not in generated_issues_numbers]
+    if issue_number:
+        to_generate_issues.append(repo.get_issue(int(issue_number)))
+    return to_generate_issues
+
+
+def save_issue(issue, me, dir_name=BACKUP_DIR):
+    md_name = os.path.join(dir_name, f"{issue.number}_{issue.title.replace(' ', '.')}.md")
+    with open(md_name, "w") as f:
+        f.write(f"# [{issue.title}]({issue.html_url})\n\n")
+        f.write(issue.body)
+        if issue.comments:
+            for c in issue.get_comments():
+                if isMe(c, me):
+                    f.write("\n\n---\n\n")
+                    f.write(c.body)
+
+
+def main(token, repo_name, issue_number=None, dir_name=BACKUP_DIR):
     user = login(token)
     me = get_me(user)
     repo = get_repo(user, "chaleaoch/gitblog")
@@ -195,10 +217,16 @@ def main(token, repo_name):
     for func in [add_md_top, add_md_recent, add_md_label, add_md_todo]:
         func(repo, "README.md", me)
 
+    to_generate_issues = get_to_generate_issues(repo, dir_name, issue_number)
+    # save md files to backup folder
+    for issue in to_generate_issues:
+        save_issue(issue, me, dir_name)
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("github_token", help="github_token")
     parser.add_argument("repo_name", help="repo_name")
+    parser.add_argument("--issue_number", help="issue_number", default=None, required=False)
     options = parser.parse_args()
     main(options.github_token, options.repo_name)
