@@ -86,3 +86,8 @@ redis和主数据库的原子性如何实现
 
 ## 自动限流
 在auto_ack=False的情况下. 可以设置自动限流, 让consumer停止应答,消息保存在队列里面.
+
+---
+
+## 死信队列
+![image](https://user-images.githubusercontent.com/11831441/100579641-8008df80-331f-11eb-86e3-212137bf666c.png)
