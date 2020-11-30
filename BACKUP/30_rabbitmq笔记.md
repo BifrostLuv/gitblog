@@ -73,3 +73,10 @@ redis和主数据库的原子性如何实现
 ![image](https://user-images.githubusercontent.com/11831441/100079365-87dc0600-2e7f-11eb-83f1-cde4197d5c99.png)
 
 
+
+
+---
+
+## return listener
+发送的消息没有exchange接受.
+![image](https://user-images.githubusercontent.com/11831441/100577414-30281980-331b-11eb-9f63-e5bdf22f6b4b.png)
