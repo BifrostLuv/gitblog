@@ -1,6 +1,5 @@
 # [rabbitmq笔记](https://github.com/chaleaoch/gitblog/issues/30)
 
-
 Table of Contents
 =================
 
@@ -63,8 +62,6 @@ Table of Contents
 ### 延迟投递,二次确认,回调检查
 减少二次落库次数
 ![image](https://user-images.githubusercontent.com/11831441/100074726-0fbf1180-2e7a-11eb-8b28-98fb3b085cac.png)
-**如果delay check和first send 都丢了, 如何补偿?**
-**delay check 如何实现?**
 
 ## 重复消费问题
 ### 唯一ID+指纹码,数据库主键去重
