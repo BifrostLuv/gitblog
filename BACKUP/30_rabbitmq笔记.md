@@ -80,3 +80,9 @@ redis和主数据库的原子性如何实现
 ## return listener
 发送的消息没有exchange接受.
 ![image](https://user-images.githubusercontent.com/11831441/100577414-30281980-331b-11eb-9f63-e5bdf22f6b4b.png)
+
+
+---
+
+## 自动限流
+在auto_ack=False的情况下. 可以设置自动限流, 让consumer停止应答,消息保存在队列里面.
