@@ -15,6 +15,7 @@ My personal blog using issues and GitHub Action
 <details><summary>显示更多</summary>
 
 - [bash学习笔记](https://github.com/chaleaoch/gitblog/issues/21)--2020-11-01
+- [pandas学习笔记](https://github.com/chaleaoch/gitblog/issues/20)--2020-10-31
 - [numpy学习笔记](https://github.com/chaleaoch/gitblog/issues/19)--2020-10-31
 - [vscode launch.json](https://github.com/chaleaoch/gitblog/issues/15)--2020-10-24
 - [操作系统笔记](https://github.com/chaleaoch/gitblog/issues/14)--2020-10-19
