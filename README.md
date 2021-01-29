@@ -1,19 +1,20 @@
 ## Gitblog
 My personal blog using issues and GitHub Action
 ## 最近更新
+- [vscode搭建APUEunix环境编程高级编程第三版开发环境](https://github.com/chaleaoch/gitblog/issues/49)--2021-01-29
 - [C语言学习笔记](https://github.com/chaleaoch/gitblog/issues/48)--2021-01-26
 - [APScheduler源码小剖](https://github.com/chaleaoch/gitblog/issues/47)--2021-01-24
 - [Python 的线程同步](https://github.com/chaleaoch/gitblog/issues/46)--2021-01-23
 - [poetry入门](https://github.com/chaleaoch/gitblog/issues/45)--2021-01-16
-- [和CA数字证书有关的一些概念](https://github.com/chaleaoch/gitblog/issues/44)--2021-01-12
 ## 笔记
+- [vscode搭建APUEunix环境编程高级编程第三版开发环境](https://github.com/chaleaoch/gitblog/issues/49)--2021-01-29
 - [C语言学习笔记](https://github.com/chaleaoch/gitblog/issues/48)--2021-01-26
 - [Docker 学习笔记](https://github.com/chaleaoch/gitblog/issues/42)--2021-01-03
 - [微服务 笔记](https://github.com/chaleaoch/gitblog/issues/35)--2020-11-29
 - [Linux Socket笔记](https://github.com/chaleaoch/gitblog/issues/33)--2020-11-25
-- [rabbitmq笔记](https://github.com/chaleaoch/gitblog/issues/30)--2020-11-23
 <details><summary>显示更多</summary>
 
+- [rabbitmq笔记](https://github.com/chaleaoch/gitblog/issues/30)--2020-11-23
 - [进程间通信](https://github.com/chaleaoch/gitblog/issues/29)--2020-11-21
 - [C笔记](https://github.com/chaleaoch/gitblog/issues/25)--2020-11-04
 - [bash学习笔记](https://github.com/chaleaoch/gitblog/issues/21)--2020-11-01
@@ -61,17 +62,19 @@ My personal blog using issues and GitHub Action
 ## Web & 微服务
 - [和CA数字证书有关的一些概念](https://github.com/chaleaoch/gitblog/issues/44)--2021-01-12
 - [greenlet(1) 使用](https://github.com/chaleaoch/gitblog/issues/4)--2020-09-26
+## 开发环境&工具
+- [vscode搭建APUEunix环境编程高级编程第三版开发环境](https://github.com/chaleaoch/gitblog/issues/49)--2021-01-29
+- [pycharm flake8](https://github.com/chaleaoch/gitblog/issues/40)--2020-12-26
 ## Docker & K8S & kubernetes
 - [Docker 学习笔记](https://github.com/chaleaoch/gitblog/issues/42)--2021-01-03
 ## django
 - [django orm --> sql ](https://github.com/chaleaoch/gitblog/issues/24)--2020-11-04
-## 工具
-- [pycharm flake8](https://github.com/chaleaoch/gitblog/issues/40)--2020-12-26
 ## 年终总结
 - [2020年终总结](https://github.com/chaleaoch/gitblog/issues/38)--2020-12-19
 ## 操作系统
 - [操作系统笔记](https://github.com/chaleaoch/gitblog/issues/14)--2020-10-19
 ## 全部
+- [vscode搭建APUEunix环境编程高级编程第三版开发环境](https://github.com/chaleaoch/gitblog/issues/49)--2021-01-29
 - [C语言学习笔记](https://github.com/chaleaoch/gitblog/issues/48)--2021-01-26
 - [APScheduler源码小剖](https://github.com/chaleaoch/gitblog/issues/47)--2021-01-24
 - [Python 的线程同步](https://github.com/chaleaoch/gitblog/issues/46)--2021-01-23
