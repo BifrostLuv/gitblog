@@ -75,11 +75,11 @@ def add_issue_info(issue, md):
 
 
 def add_md_todo(repo, md, me):
-    todo_issues = list(get_todo_issues(repo))
+    todo_issues = list(repo.get_issues())
     if not TODO_ISSUES_LABELS or not todo_issues:
         return
     with open(md, "a+", encoding="utf-8") as md:
-        md.write("## TODO\n")
+        md.write("## 全部\n")
         for issue in todo_issues:
             if isMe(issue, me):
                 todo_title, todo_list = parseTODO(issue)
