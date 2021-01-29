@@ -42,15 +42,16 @@ def get_repo(user: Github, repo: str):
 
 def parseTODO(issue):
     body = issue.body.splitlines()
-    todo_undone = [l for l in body if l.startswith("- [ ] ")]
-    todo_done = [l for l in body if l.startswith("- [x] ")]
-    # just add info all done
-    if not todo_undone:
-        return f"[{issue.title}]({issue.html_url}) all done", []
-    return (
-        f"[{issue.title}]({issue.html_url})--{len(todo_undone)} jobs to do--{len(todo_done)} jobs done",
-        todo_done + todo_undone,
-    )
+    return f"[{issue.title}]({issue.html_url}) all done", []
+    # todo_undone = [l for l in body if l.startswith("- [ ] ")]
+    # todo_done = [l for l in body if l.startswith("- [x] ")]
+    # # just add info all done
+    # if not todo_undone:
+    #     return f"[{issue.title}]({issue.html_url}) all done", []
+    # return (
+    #     f"[{issue.title}]({issue.html_url})--{len(todo_undone)} jobs to do--{len(todo_done)} jobs done",
+    #     todo_done + todo_undone,
+    # )
 
 
 def get_top_issues(repo):
@@ -81,13 +82,8 @@ def add_md_todo(repo, md, me):
     with open(md, "a+", encoding="utf-8") as md:
         md.write("## 全部\n")
         for issue in todo_issues:
-            if isMe(issue, me):
-                todo_title, todo_list = parseTODO(issue)
-                md.write("TODO list from " + todo_title + "\n")
-                for t in todo_list:
-                    md.write(t + "\n")
-                # new line
-                md.write("\n")
+            time = format_time(issue.created_at)
+            md.write(f"- [{issue.title}]({issue.html_url})--{time}\n")
 
 
 def add_md_top(repo, md, me):
