@@ -1,11 +1,11 @@
 ## Gitblog
 My personal blog using issues and GitHub Action
 ## 最近更新
+- [计算机体系结构基础](https://github.com/chaleaoch/gitblog/issues/50)--2021-02-01
 - [vscode搭建APUEunix环境编程高级编程第三版开发环境](https://github.com/chaleaoch/gitblog/issues/49)--2021-01-29
 - [C语言学习笔记](https://github.com/chaleaoch/gitblog/issues/48)--2021-01-26
 - [APScheduler源码小剖](https://github.com/chaleaoch/gitblog/issues/47)--2021-01-24
 - [Python 的线程同步](https://github.com/chaleaoch/gitblog/issues/46)--2021-01-23
-- [poetry入门](https://github.com/chaleaoch/gitblog/issues/45)--2021-01-16
 ## 笔记
 - [vscode搭建APUEunix环境编程高级编程第三版开发环境](https://github.com/chaleaoch/gitblog/issues/49)--2021-01-29
 - [C语言学习笔记](https://github.com/chaleaoch/gitblog/issues/48)--2021-01-26
@@ -16,13 +16,11 @@ My personal blog using issues and GitHub Action
 
 - [rabbitmq笔记](https://github.com/chaleaoch/gitblog/issues/30)--2020-11-23
 - [进程间通信](https://github.com/chaleaoch/gitblog/issues/29)--2020-11-21
-- [C笔记](https://github.com/chaleaoch/gitblog/issues/25)--2020-11-04
 - [bash学习笔记](https://github.com/chaleaoch/gitblog/issues/21)--2020-11-01
 - [pandas学习笔记](https://github.com/chaleaoch/gitblog/issues/20)--2020-10-31
 - [numpy学习笔记](https://github.com/chaleaoch/gitblog/issues/19)--2020-10-31
 - [vscode launch.json](https://github.com/chaleaoch/gitblog/issues/15)--2020-10-24
 - [操作系统笔记](https://github.com/chaleaoch/gitblog/issues/14)--2020-10-19
-- [C预处理器](https://github.com/chaleaoch/gitblog/issues/11)--2020-10-04
 - [typedef](https://github.com/chaleaoch/gitblog/issues/10)--2020-10-04
 - [x86架构32位处理器寄存器](https://github.com/chaleaoch/gitblog/issues/9)--2020-10-03
 - [# GDT与LDT](https://github.com/chaleaoch/gitblog/issues/7)--2020-10-03
@@ -65,15 +63,17 @@ My personal blog using issues and GitHub Action
 ## 开发环境&工具
 - [vscode搭建APUEunix环境编程高级编程第三版开发环境](https://github.com/chaleaoch/gitblog/issues/49)--2021-01-29
 - [pycharm flake8](https://github.com/chaleaoch/gitblog/issues/40)--2020-12-26
+## 操作系统
+- [计算机体系结构基础](https://github.com/chaleaoch/gitblog/issues/50)--2021-02-01
+- [操作系统笔记](https://github.com/chaleaoch/gitblog/issues/14)--2020-10-19
 ## Docker & K8S & kubernetes
 - [Docker 学习笔记](https://github.com/chaleaoch/gitblog/issues/42)--2021-01-03
 ## django
 - [django orm --> sql ](https://github.com/chaleaoch/gitblog/issues/24)--2020-11-04
 ## 年终总结
 - [2020年终总结](https://github.com/chaleaoch/gitblog/issues/38)--2020-12-19
-## 操作系统
-- [操作系统笔记](https://github.com/chaleaoch/gitblog/issues/14)--2020-10-19
 ## 全部
+- [计算机体系结构基础](https://github.com/chaleaoch/gitblog/issues/50)--2021-02-01
 - [vscode搭建APUEunix环境编程高级编程第三版开发环境](https://github.com/chaleaoch/gitblog/issues/49)--2021-01-29
 - [C语言学习笔记](https://github.com/chaleaoch/gitblog/issues/48)--2021-01-26
 - [APScheduler源码小剖](https://github.com/chaleaoch/gitblog/issues/47)--2021-01-24
@@ -93,7 +93,6 @@ My personal blog using issues and GitHub Action
 - [rabbitmq笔记](https://github.com/chaleaoch/gitblog/issues/30)--2020-11-23
 - [进程间通信](https://github.com/chaleaoch/gitblog/issues/29)--2020-11-21
 - [sso 单点登录](https://github.com/chaleaoch/gitblog/issues/26)--2020-11-07
-- [C笔记](https://github.com/chaleaoch/gitblog/issues/25)--2020-11-04
 - [django orm --> sql ](https://github.com/chaleaoch/gitblog/issues/24)--2020-11-04
 - [pytz时区问题](https://github.com/chaleaoch/gitblog/issues/23)--2020-11-04
 - [malloc存在的意义是什么?](https://github.com/chaleaoch/gitblog/issues/22)--2020-11-01
@@ -107,7 +106,6 @@ My personal blog using issues and GitHub Action
 - [操作系统笔记](https://github.com/chaleaoch/gitblog/issues/14)--2020-10-19
 - [# Go的包导入](https://github.com/chaleaoch/gitblog/issues/13)--2020-10-14
 - [# GOROOT GOPATH GO Module](https://github.com/chaleaoch/gitblog/issues/12)--2020-10-14
-- [C预处理器](https://github.com/chaleaoch/gitblog/issues/11)--2020-10-04
 - [typedef](https://github.com/chaleaoch/gitblog/issues/10)--2020-10-04
 - [x86架构32位处理器寄存器](https://github.com/chaleaoch/gitblog/issues/9)--2020-10-03
 - [为什么减法用补码表示?](https://github.com/chaleaoch/gitblog/issues/8)--2020-10-03
